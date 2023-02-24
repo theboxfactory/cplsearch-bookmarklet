@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="David Flood" />
+    <meta name="author" content="Ian Clark" />
     <meta name="description" content="Search CPL - Bookmarklet to search the Chicago Public Library catalogue using text on any web page." />
     <title>Chicago Public Library - Search Bookmarklet</title>
     <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css"/> 
-    <!-- <link rel="stylesheet" href="https://the.missing.style/v1.0.9/missing.min.css"> -->
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
@@ -16,27 +15,25 @@
       <h1>Chicago Public Library - Search Bookmarklet</h1>
     </header>
     <main>
-    <article>
-      <h1>Introduction</h1>
-      <p>This browser <a target="_blank" href="https://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a> allows you to easily search the <a target="_blank" href="https://www.chipublib.org/">Chicago Public Library (CPL)</a> catalogue for any text displayed on a web page.</p>
+      <article>
+        <h1>Introduction</h1>
+        <p>This browser <a target="_blank" href="https://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a> allows you to easily search the <a target="_blank" href="https://www.chipublib.org/">Chicago Public Library (CPL)</a> catalogue for any text displayed on a web page.</p>
 
-      <h1>Installation</h1>
-      <p>To install the bookmarket, click and drag the button named 'Search CPL' below to your browser bookmarks bar.</p>
-      <section>
-        <a href="javascript:(function()%7B if (window.getSelection() != '') %7Bwindow.open('http://chipublib.bibliocommons.com/search?&t=smart&search_category=keyword&q=%27 + window.getSelection())%7D else %7Balert(%27Please select some text to search the CPL catalogue%27)%7D%7D)();"><button>Search CPL</button></a>
-      </section>
-      <h2>Usage</h2>
-      <p>Once the bookmarlet has been installed, you can  search the CPL catalogue with the following steps:</p>
-      <p>1) Highlight the text to search on any web page.</p>
-      <p>2) Click the 'Search CPL' bookmarklet on your browser bookmarks bar.</p>
-      <p>3) The CPL catalogue search results will be displayed in a new browser tab.</p>
+        <h1>Installation</h1>
+        <p>To install the bookmarket, click and drag the button named 'Search CPL' below to your browser bookmarks bar.</p>
+        <section>
+          <a href="javascript:(function()%7B if (window.getSelection() != '') %7Bwindow.open('http://chipublib.bibliocommons.com/search?&t=smart&search_category=keyword&q=%27 + window.getSelection())%7D else %7Balert(%27Please select some text to search the CPL catalogue%27)%7D%7D)();"><button>Search CPL</button></a>
+        </section>
+        <h2>Usage</h2>
+        <p>Once the bookmarlet has been installed, you can  search the CPL catalogue with the following steps:</p>
+        <p>1) Highlight the text to search on any web page.</p>
+        <p>2) Click the 'Search CPL' bookmarklet on your browser bookmarks bar.</p>
+        <p>3) The CPL catalogue search results will be displayed in a new browser tab.</p>
 
-      <h2>Questions/Feedback</h2>
-      <p>Please send any questions or comments to: Email - <strong>ianolsenclark at gmail.com</strong></p>
+        <h2>Questions/Feedback</h2>
+        <p>Please send any questions or comments to: Email - <strong>ianolsenclark at gmail.com</strong></p>
 
-      </article>
-      <!-- <p> Twitter - <a href="">@theboxfactory</a></p>
-      <p> Mastadon -  <a href="">@theboxfactory</a></p> -->
+        </article>
     </main>
     <footer style="text-align: center;">
       This page is not affiliated to <a target="_blank" href="https://www.chipublib.org/">Chicago Public Library</a>
